@@ -1,0 +1,35 @@
+/* Media Queries
+   Se o tamanho da tela for de 600px de largura ou menos defina o  tamanho da fonte de 30px 
+   @media only screen and (max-width: 600px) 
+
+   Se o tamanho da tela for de 601px de largura ou mais defina o  tamanho da fonte de 80px 
+   @media only screen and (min-width: 600px) 
+*/
+
+/* Mobile Devices: 320px - 480px */
+@media screen and (min-width: 320px) {
+  .container__menu-title > h1 {
+    font-size: 40px;
+  }
+}
+
+/* iPads, Tablets: 481px - 768px  */
+@media screen and (min-width: 481px) {
+  .container__menu-title > h1 {
+    font-size: 60px;
+  }
+}
+
+/* Small screens, laptops: 769px - 1024px */
+@media screen and (min-width: 769px) {
+  .container__menu-title > h1 {
+    font-size: 100px;
+  }
+}
+
+/* Desktop, large screens: 1025px - 1200px */
+@media screen and (min-width: 1025px) {
+  .container__menu-title > h1 {
+    font-size: 135px;
+  }
+}
